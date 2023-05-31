@@ -1,0 +1,160 @@
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: #337ab7;
+    text-decoration: none;
+}
+
+a:hover {
+	background-color: #045d5d;
+}
+
+
+/* Header styles */
+header {
+    background-color: teal;
+    color: #fff;
+    padding: 20px;
+}
+
+h1 {
+    margin: 0;
+	font-size: 300%;
+}
+
+nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+	max-width: 1200px;
+    margin: 0 auto;
+}
+
+nav li {
+	display: inline-block;
+	margin: 0 30px;
+	border-color: #045d5d;
+}
+
+nav a {
+	color: #fff;
+	text-decoration: none;
+}
+
+/* Styles for the navigation bar */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: teal;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #045d5d;
+  }
+ 
+/* Main content styles */
+
+  main {
+	margin: 20px;
+  }
+
+  body {
+    background-image: url(b.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  article {
+  width: auto;
+	margin-bottom: 20px;
+	background-color: #fff;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+	border-radius: 5px;
+	overflow: hidden;
+  }
+  
+  img {
+    width:  20%;
+    height: 20%;
+    float: right;
+}
+
+.post-content a {
+  color: black;
+}
+
+.post-content a:hover {
+  background-color: #ddd;
+}
+
+  .post-content {
+	padding: 20px;
+  }
+  
+
+  .post-content h2 {
+	font-size: 40px;
+	margin: 10px 0;
+	text-transform: capitalize;
+  }
+  
+  .post-content span {
+	font-size: 14px;
+	display: block;
+	margin-bottom: 5px;
+  }
+  
+  .post-content p {
+	font-size: 20px;
+	margin-bottom: 20px;
+	line-height: 1.5;
+  }
+  
+  
+ /* Footer styles */
+
+ footer {
+	background-color: #333;
+	color: #fff;
+  padding: 20px;
+	text-align: center;
+}
+
+  footer nav ul {
+	display: flex;
+	justify-content: center;
+}
+  
+footer nav ul li {
+	margin: 0 10px;
+}
+  
+  footer p {
+	margin: 10px 0 0;
+}

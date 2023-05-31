@@ -1,0 +1,255 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+/* Global Styles */
+body {
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+/* Header styles */
+header {
+	background-color: teal;
+	color: #fff;
+	padding: 20px;
+}
+
+h1 {
+	margin: 0;
+	font-size: 50px;
+}
+
+nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+	max-width: 1200px;
+    margin: 0 auto;
+}
+
+nav li {
+	display: inline-block;
+	margin: 0 30px;
+	border-color: #045d5d;
+}
+
+nav a {
+	color: #fff;
+	text-decoration: none;
+}
+
+ /* Styles for the navigation bar */
+ ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: teal;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #045d5d;
+}
+
+/* Main styles */
+main {
+	max-width: 800px;
+	margin: 20px auto;
+	padding: 0 20px;
+}
+
+body {
+	background-image: url(b.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+img {
+ width: 250%;
+ height: 100%;
+ height: auto;
+ display: block;
+ margin: 0 auto 10px;
+ max-width: 100%;
+}
+
+section {
+	margin-bottom: 40px;
+}
+
+section p {
+	background-color: #fff;
+	padding: 10px;
+}
+
+h2  {
+	margin-top: 0;
+	background-color: #fff;
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+}
+
+article {
+	position: relative;
+	background-color: #f7f7f7;
+	padding: 20px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	margin-bottom: 10px;
+}
+
+article h3 {
+	margin-top: 0;
+}
+
+article p {
+	margin-bottom: 0;
+	background-color: #f7f7f7;
+}
+
+article a {
+	display: block;
+	margin-top: 10px;
+	text-align: right;
+}
+
+article a {
+	background-color: #fff;
+	color: #111;
+	padding: 10px 20px;
+	border-radius: 5px;
+	text-decoration: none;
+  }
+  
+article a:hover {
+	background-color: #ccc;
+}
+
+  /*Slideshow*/
+.image-banner {
+    position: relative;
+    top: 0px;
+    z-index: 10;
+    margin-top: 30px;
+    padding-bottom: 30px;
+}
+.image-banner img {
+    display: block;
+}
+
+.cycle-slideshow {
+    margin-bottom: 30px;
+    width: 100%;
+    padding-bottom: 30px;
+    box-sizing: border-box;
+	margin-left: 150px;
+}
+
+.slide {
+    width: 60%;
+    position: absolute;
+	padding-bottom: 70px;
+    box-sizing: border-box;
+}
+
+.slide-text {
+    position: absolute;
+    bottom: -10;
+    background-color: rgb(98, 77, 77, 0.5);
+    color: black;
+    width: 100%;
+    padding: 20px;
+    padding-top: 20px;
+    box-sizing: border-box;
+	text-align: center;
+}
+
+.slide-text h3 {
+    margin: 0;
+    color: black;
+}
+.slide-text p {
+    color: black;
+}
+
+.center {
+	margin-left: 150px;
+	margin-right: auto;
+}
+/*End of slideshow*/
+
+/*Previous and next*/
+.cycle-prev, .cycle-next {
+    position: absolute;
+    width: 20%;
+    top: 30%;
+    background-color: rgba(0,0,0,0.4);
+    color: #FFF;
+    padding: 1px 10px;
+    display: block;
+    cursor: pointer;
+    font-size: 130%;
+    z-index: 1000;
+    opacity: 0;
+    transition: opacity .5s;
+}
+
+.cycle-next {
+    right: 0;
+}
+
+.cycle-slideshow:hover .cycle-prev,
+.cycle-slideshow:hover .cycle-next {
+    opacity: 1;
+}
+/*End of previous and next*/
+
+/* Footer styles */
+footer {
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+}
+
+footer {
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+}
+  
+  footer nav ul {
+	display: flex;
+	justify-content: center;
+}
+  
+  footer nav ul li {
+	margin: 0 10px;
+}
+  
+  footer p {
+	margin: 10px 0 0;
+}
